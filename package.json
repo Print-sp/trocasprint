@@ -1,0 +1,8 @@
+{
+  "name": "controle-trocas-caminhoes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema web para controle de trocas de caminhões",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" }
+}
