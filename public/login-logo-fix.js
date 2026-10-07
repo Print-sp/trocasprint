@@ -1,0 +1,1 @@
+const loginLogoObserver=new MutationObserver(()=>{const img=document.querySelector('#loginBox .login-card img');if(img){img.src='/public/login-logo.png';img.style.width='170px';img.style.height='auto';}});loginLogoObserver.observe(document.body,{childList:true,subtree:true});
